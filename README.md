@@ -36,7 +36,7 @@ Run:
 
 	./florilege <stream>
 
-where <stream> is any media stream (video file, real-time stream over RTSP etc.)
+where `<stream>` is any media stream (video file, real-time stream over RTSP etc.)
 
 Contributing
 ============
