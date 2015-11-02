@@ -111,7 +111,7 @@ int InitFFmpeg(Context *pContext)
     int videoStream;
     int i;
     AVCodec *pCodec;
-    av_log_set_level(AV_LOG_TRACE);
+    av_log_set_level(AV_LOG_DEBUG);
     avformat_network_init();
     av_register_all();
     if (avformat_open_input(&pFormatCtx, pContext->videoName, NULL, NULL) != 0)
